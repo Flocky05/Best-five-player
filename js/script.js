@@ -1,22 +1,3 @@
-// document.getElementById('shakib').addEventListener('click',function(){
-//     const select=document.getElementById('selected');
-//      const selectedFinal=select.innerText;
-//      const selctedFieldFinal="Shakib AL Hasan";
-//      selected.innerText=selctedFieldFinal;
-//      document.querySelector('#shakib').disabled = true;
-     
-    
-// })
-// document.getElementById('mashrafe').addEventListener('click',function(){
-//     const select=document.getElementById('selected');
-//      const selectedFinal=select.innerText;
-//      const selctedFieldFinal="Mashrafe Mortaza";
-//     //  const selctedFieldFinal=selctedFieldFinal+selctedField;
-//      selected.innerText=selctedFieldFinal;
-//      document.querySelector('#mashrafe').disabled = true;
-    
-// })
-
 const selected = document.getElementById('selected')
 const playerContainer = document.getElementById('player-container');
 playerContainer.addEventListener('click',function(e){
