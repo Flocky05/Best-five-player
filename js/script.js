@@ -37,6 +37,9 @@ const managerCost=document.getElementById('manager');
 const coachCost=document.getElementById('coach');
 const finalCost=document.getElementById('final-cost');
 document.getElementById('calculate-total').addEventListener('click',function(){
+    if(managerCost.value==="" || coachCost.value===""){
+        alert("Please check manager and coach amount ");
+    }
     const totalCost=parseFloat(managerCost.value) +parseFloat(coachCost.value) +parseFloat(totalPlayerCost.innerText);
     finalCost.innerText=totalCost;
 })
