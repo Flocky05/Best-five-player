@@ -25,6 +25,10 @@ function createElement(itemName)
 const perPlayerCost=document.getElementById('per-player-cost');
 const totalPlayerCost=document.getElementById('total-player-cost');
 document.getElementById('player-cost-button').addEventListener('click',function(){
+    if(perPlayerCost.value===''){
+        alert("Enter per player amount .")
+        return;
+    }
          totalPlayerCost.innerText=
 parseFloat(perPlayerCost.value)*selected.childElementCount;
 })
