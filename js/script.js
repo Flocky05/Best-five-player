@@ -1,6 +1,5 @@
 const selected = document.getElementById('selected')
-const playerContainer = document.getElementById('player-container');
-playerContainer.addEventListener('click',function(event){
+const playerContainer = document.getElementById('player-container').addEventListener('click',function(event){
     let playerName;
     if(event.target.nodeName === 'BUTTON'){
         if(selected.childElementCount>4){
