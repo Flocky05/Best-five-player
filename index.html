@@ -14,45 +14,43 @@
     </style>
 </head>
 <body>
-    <header>
-        <div class="text-center text-white bg-black px-40 py-20 ">
-            <div class="m-5 p-5">
+        <header class="text-center text-white h-96 bg-[url('./images/flag.png')]  bg-cover bg-center text-center  py-20 grid place-content-center">
+            <div class="m-5 p-5 h-full w-[80ch]">
                 <h1 class="text-5xl ">Select Your Best Five</h1>
                 <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsam neque autem excepturi. Corporis, saepe earum corrupti labore eos amet, mollitia autem numquam doloribus quos neque, voluptates provident dolorum! Obcaecati.</p>
             </div>
-        </div>
-    </header>
+          </header>
     <main >
        <div class="grid grid-cols-4 bg-green-700  p-20">
             <div class="col-span-3">
-                <div class="grid grid-cols-3 gap-2">
+                <div id="player-container" class="grid grid-cols-3 gap-2">
                     <div class="card card-compact  shadow-xl">
                         <figure><img src="images/Shakib-Al-Hasan.jpg" alt="Shoes" /></figure>
                         <div class="card-body text-center bg-black p-5">
                           <h2 class="card-title text-2xl text-white">Shakib-Al-Hasan</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button id="shakib" class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
                       <div class="card card-compact shadow-xl">
                         <figure><img src="images/mashrafeMortaza1.jpg" alt="Shoes" /></figure>
                         <div class="card-body text-center bg-black p-5">
-                          <h2 class="card-title text-2xl text-white">Shakib-Al-Hasan</h2>
+                          <h2  class="card-title text-2xl text-white">Mashrafe Mortaza</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button id="mashrafe" class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
                       <div class="card card-compact shadow-xl">
                         <figure><img src="images/mushfiqur-rahim (1).jpg" alt="Shoes" /></figure>
                         <div class="card-body text-center bg-black p-5">
-                          <h2 class="card-title text-2xl text-white">Shakib-Al-Hasan</h2>
+                          <h2 class="card-title text-2xl text-white">Musfiqur Rahim</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -62,7 +60,7 @@
                           <h2 class="card-title text-2xl text-white">Litton Das</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -72,7 +70,7 @@
                           <h2 class="card-title text-2xl text-white">Mahmudullah-Riyad</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -82,7 +80,7 @@
                           <h2 class="card-title text-2xl text-white">Mehedi Hasan</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -92,7 +90,7 @@
                           <h2 class="card-title text-2xl text-white">Mohammad Saif </h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -102,7 +100,7 @@
                           <h2 class="card-title text-2xl text-white">Mokaddes Hossain</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -112,7 +110,7 @@
                           <h2 class="card-title text-2xl text-white">Tamim Iqbal</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -122,17 +120,17 @@
                           <h2 class="card-title text-2xl text-white">mustafizur Rahman</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
                       <div class="card card-compact  shadow-xl">
                         <figure><img src="images/rubelHossain.jpg" alt="Shoes" /></figure>
                         <div class="card-body text-center bg-black p-5">
-                          <h2 class="card-title text-2xl text-white">rubelHossain</h2>
+                          <h2 class="card-title text-2xl text-white">Rubel Hossain</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -142,7 +140,7 @@
                           <h2 class="card-title text-2xl text-white">sabbir Rahman</h2>
                           <p class="text-gray-500 p-3">Run:2010  .Wicket:121</p>
                           <div class="card-actions justify-center p-3">
-                            <button class="btn btn-primary bg-cyan-500 text-white px-4 py-1 w-9/12">SELECT</button>
+                            <button class="btn btn-primary disabled:bg-gray-400 bg-green-800 text-white px-4 py-1 w-9/12">SELECT</button>
                           </div>
                         </div>
                       </div>
@@ -152,40 +150,36 @@
                     <div class="grid grid-1 pl-4 h-1/4">
                         <div class="bg-black  text-white p-5">
                          <h3 class="text-center  text-3xl">Selected-V</h3>
-                         <div class="mt-8 ml-4 pb-10 ">
-                             <p>1.Shakib-Al-Hasan</p>
-                             <p>2.mashrafe Mortaza</p>
-                             <p>3.litton Das</p>
-                             <p>4.Mahmudullah Riyad</p>
-                             <p>5.tamim Iqbal</p>
-                         </div>
+                         <ol id="selected" class="list-decimal mt-8 ml-4 pb-10 ">
+                             
+                         </ol>
                         </div>
                      </div>
                      <div class="mt-4 bg-black p-4 text-center  text-white ml-4">
                        <div>
                             <h5 class=" text-3xl">Budget</h5>
                        </div>
-                       <div class="flex justify-between  mt-4">
+                       <div class="flex justify-between  my-4">
                             <p class="text-neutral-200">Per Player:</p> 
-                            <input class="bg-black text-white border-2 border-white text-center border-white" type="text" placeholder="10000">
+                            <input id="per-player-cost" class="bg-black text-white border-2 border-white text-center border-white" type="text" placeholder="10000">
                        </div>
-                       <button class="bg-cyan-500 px-5 py-1 mt-4 w-full mt-3 ">Calculate</button>
-                       <div class="flex justify-between mt-3 ">
+                       <button id="player-cost-button" class="bg-green-800 px-5 py-1 my-4 w-full mt-3 ">Calculate</button>
+                       <div class="flex justify-between my-3 ">
                         <p class="text-neutral-200">Player Expenses</p>
-                        <p>$50000</p>
+                        <p>$ <span id="total-player-cost">00</span></p>
                        </div>
-                       <div class="flex justify-between  mt-3">
+                       <div class="flex justify-between  my-4">
                         <p class="text-neutral-200">Manager</p>
-                        <input type="text" placeholder="75000" class="bg-black text-white border-white text-center border-white border-2" />
+                        <input id="manager" type="text" placeholder="75000" class="bg-black text-white border-white text-center border-white border-2" />
                        </div>
-                       <div class="flex justify-between  mt-3 ">
+                       <div class="flex justify-between  my-4 ">
                         <p class="text-neutral-200">Coach</p>
-                        <input type="text" placeholder="50000" class=" bg-black text-white text-center border-white border-2" />
+                        <input id="coach" type="text" placeholder="50000" class=" bg-black text-white text-center border-white border-2" />
                        </div>
-                       <button class="bg-cyan-500 px-5 py-1 mt-4 w-full mt-3 ">Calculate Total</button>
-                       <div class="flex justify-between mt-3">
+                       <button id="calculate-total" class="bg-green-800 px-5 py-1 my-4 w-full mt-3 ">Calculate Total</button>
+                       <div class="flex justify-between my-3">
                         <p class="text-neutral-200">Total</p>
-                        <p class="text-orange-500">$11000</p>
+                        <p class="text-orange-500">$ <span id="final-cost">00</span></p>
                        </div>
 
                     </div>
@@ -200,5 +194,6 @@
             <p>Copyright @ 2022 All Rights Reserved.</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
