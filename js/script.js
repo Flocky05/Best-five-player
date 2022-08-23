@@ -1,15 +1,15 @@
 const selected = document.getElementById('selected')
 const playerContainer = document.getElementById('player-container');
-playerContainer.addEventListener('click',function(e){
-    let x;
-    if(e.target.nodeName === 'BUTTON'){
+playerContainer.addEventListener('click',function(event){
+    let playerName;
+    if(event.target.nodeName === 'BUTTON'){
         if(selected.childElementCount>4){
             alert("You can't add more than 5 player.")
       return;
         }
-       x = e.target.parentElement.parentElement.querySelector('h2').innerText
-       createElement(x)
-       e.target.setAttribute('disabled','true')
+       playerName = event.target.parentElement.parentElement.querySelector('h2').innerText
+       createElement(playerName);
+       event.target.setAttribute('disabled','true')
     }
 })
 
